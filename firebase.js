@@ -17,8 +17,6 @@ const firebaseConfig = {
   measurementId: process.env.NEXT_PUBLIC_MEAS_ID
 };
 
-console.log(process.env.NEXT_PUBLIC_FIREBASE_API_KEY)
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
  
